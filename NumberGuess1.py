@@ -12,7 +12,11 @@ def myrightguess():
             print("Nice")
             break
         else:
-            myrightguess()
-            break
+            if guess > a:
+                print("Too high")
+            else:   
+                print("Too Low")
+        myrightguess()
+        break
             
 myrightguess()
